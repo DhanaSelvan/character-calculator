@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100dvw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink;
+}
+
+.container{
+    text-align: center;
+}
+
+#input {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 16px;
+    font-size: 18px;
+    height: 100px;
+    width: 500px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+#input:focus {
+    outline: none;
+}
